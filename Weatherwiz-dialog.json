@@ -1,0 +1,6193 @@
+{
+  "intents": [
+    {
+      "intent": "Current_Weather",
+      "examples": [
+        {
+          "text": "current weather please"
+        },
+        {
+          "text": "get"
+        },
+        {
+          "text": "get weather"
+        },
+        {
+          "text": "what's the weather today"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "details",
+      "examples": [
+        {
+          "text": "details",
+          "mentions": [
+            {
+              "entity": "details",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Feedback_Bad",
+      "examples": [
+        {
+          "text": "Agitated"
+        },
+        {
+          "text": "Angered"
+        },
+        {
+          "text": "Annoyed"
+        },
+        {
+          "text": "Awful"
+        },
+        {
+          "text": "Bad"
+        },
+        {
+          "text": "Bad customer service"
+        },
+        {
+          "text": "Bad service"
+        },
+        {
+          "text": "Below average"
+        },
+        {
+          "text": "Below expectations"
+        },
+        {
+          "text": "Below expectations behavior"
+        },
+        {
+          "text": "Below expectations experience"
+        },
+        {
+          "text": "Below expectations outcome"
+        },
+        {
+          "text": "Below expectations quality"
+        },
+        {
+          "text": "Below expectations response"
+        },
+        {
+          "text": "Below expectations result"
+        },
+        {
+          "text": "Below expectations service"
+        },
+        {
+          "text": "Below par"
+        },
+        {
+          "text": "Below standard behavior"
+        },
+        {
+          "text": "Below standard experience"
+        },
+        {
+          "text": "Below standard outcome"
+        },
+        {
+          "text": "Below standard quality"
+        },
+        {
+          "text": "Below standard response"
+        },
+        {
+          "text": "Below standard result"
+        },
+        {
+          "text": "Below standard service"
+        },
+        {
+          "text": "Bothered"
+        },
+        {
+          "text": "Broken"
+        },
+        {
+          "text": "Broken service"
+        },
+        {
+          "text": "Broken system"
+        },
+        {
+          "text": "Bugs"
+        },
+        {
+          "text": "Bugs in service"
+        },
+        {
+          "text": "Bugs in system"
+        },
+        {
+          "text": "Complicated"
+        },
+        {
+          "text": "Complicated process"
+        },
+        {
+          "text": "Complicated service"
+        },
+        {
+          "text": "Complicated system"
+        },
+        {
+          "text": "Confusing"
+        },
+        {
+          "text": "Confusing experience"
+        },
+        {
+          "text": "Confusing service"
+        },
+        {
+          "text": "Confusing system"
+        },
+        {
+          "text": "Could be better"
+        },
+        {
+          "text": "Could improve"
+        },
+        {
+          "text": "Deficient"
+        },
+        {
+          "text": "Deficient service"
+        },
+        {
+          "text": "Difficult"
+        },
+        {
+          "text": "Difficult service"
+        },
+        {
+          "text": "Difficult system"
+        },
+        {
+          "text": "Difficult to understand"
+        },
+        {
+          "text": "Disappointed"
+        },
+        {
+          "text": "Disappointed experience"
+        },
+        {
+          "text": "Disappointed in behavior"
+        },
+        {
+          "text": "Disappointed in experience"
+        },
+        {
+          "text": "Disappointed in quality"
+        },
+        {
+          "text": "Disappointed in response"
+        },
+        {
+          "text": "Disappointed in service"
+        },
+        {
+          "text": "Disappointed outcome"
+        },
+        {
+          "text": "Disappointed quality"
+        },
+        {
+          "text": "Disappointed result"
+        },
+        {
+          "text": "Disappointed service"
+        },
+        {
+          "text": "Disappointed with behavior"
+        },
+        {
+          "text": "Disappointed with experience"
+        },
+        {
+          "text": "Disappointed with outcome"
+        },
+        {
+          "text": "Disappointed with quality"
+        },
+        {
+          "text": "Disappointed with response"
+        },
+        {
+          "text": "Disappointed with service"
+        },
+        {
+          "text": "Disappointing"
+        },
+        {
+          "text": "Disappointingly"
+        },
+        {
+          "text": "Discontented"
+        },
+        {
+          "text": "Disheartening"
+        },
+        {
+          "text": "Disorganized"
+        },
+        {
+          "text": "Displeased"
+        },
+        {
+          "text": "Displeased with behavior"
+        },
+        {
+          "text": "Displeased with experience"
+        },
+        {
+          "text": "Displeased with outcome"
+        },
+        {
+          "text": "Displeased with quality"
+        },
+        {
+          "text": "Displeased with response"
+        },
+        {
+          "text": "Displeased with service"
+        },
+        {
+          "text": "Displeasing"
+        },
+        {
+          "text": "Displeasing behavior"
+        },
+        {
+          "text": "Displeasing outcome"
+        },
+        {
+          "text": "Displeasing quality"
+        },
+        {
+          "text": "Displeasing response"
+        },
+        {
+          "text": "Displeasing result"
+        },
+        {
+          "text": "Displeasing service"
+        },
+        {
+          "text": "Disrespectful"
+        },
+        {
+          "text": "Disrespectful behavior"
+        },
+        {
+          "text": "Disrespectful service"
+        },
+        {
+          "text": "Dissatisfactory"
+        },
+        {
+          "text": "Dissatisfied"
+        },
+        {
+          "text": "Dissatisfied with behavior"
+        },
+        {
+          "text": "Dissatisfied with experience"
+        },
+        {
+          "text": "Dissatisfied with outcome"
+        },
+        {
+          "text": "Dissatisfied with quality"
+        },
+        {
+          "text": "Dissatisfied with response"
+        },
+        {
+          "text": "Dissatisfied with service"
+        },
+        {
+          "text": "Distracting"
+        },
+        {
+          "text": "Distracting service"
+        },
+        {
+          "text": "Disturbed"
+        },
+        {
+          "text": "Errors"
+        },
+        {
+          "text": "Errors in information"
+        },
+        {
+          "text": "Errors in service"
+        },
+        {
+          "text": "Failed to meet expectations"
+        },
+        {
+          "text": "Frustrated"
+        },
+        {
+          "text": "Frustrating"
+        },
+        {
+          "text": "Frustrating experience"
+        },
+        {
+          "text": "Glitches"
+        },
+        {
+          "text": "Glitches in service"
+        },
+        {
+          "text": "Glitches in system"
+        },
+        {
+          "text": "Hard to navigate"
+        },
+        {
+          "text": "Hard to use"
+        },
+        {
+          "text": "Hard to use service"
+        },
+        {
+          "text": "Hate"
+        },
+        {
+          "text": "Horrible"
+        },
+        {
+          "text": "Ignored"
+        },
+        {
+          "text": "Inaccurate"
+        },
+        {
+          "text": "Inaccurate information"
+        },
+        {
+          "text": "Inaccurate service"
+        },
+        {
+          "text": "Inadequate"
+        },
+        {
+          "text": "Inadequate behavior"
+        },
+        {
+          "text": "Inadequate experience"
+        },
+        {
+          "text": "Inadequate outcome"
+        },
+        {
+          "text": "Inadequate performance"
+        },
+        {
+          "text": "Inadequate quality"
+        },
+        {
+          "text": "Inadequate response"
+        },
+        {
+          "text": "Inadequate response from service"
+        },
+        {
+          "text": "Inadequate result"
+        },
+        {
+          "text": "Inadequate service"
+        },
+        {
+          "text": "Inefficient"
+        },
+        {
+          "text": "Inefficient customer service"
+        },
+        {
+          "text": "Inefficient service"
+        },
+        {
+          "text": "Inefficient system"
+        },
+        {
+          "text": "Irritated"
+        },
+        {
+          "text": "Issues"
+        },
+        {
+          "text": "Lacking"
+        },
+        {
+          "text": "Lackluster service"
+        },
+        {
+          "text": "Lack of communication"
+        },
+        {
+          "text": "Lack of service"
+        },
+        {
+          "text": "Lacks clarity"
+        },
+        {
+          "text": "Lacks efficiency"
+        },
+        {
+          "text": "Lacks professionalism"
+        },
+        {
+          "text": "Lacks quality"
+        },
+        {
+          "text": "Lacks responsiveness"
+        },
+        {
+          "text": "Lacks transparency"
+        },
+        {
+          "text": "Let down"
+        },
+        {
+          "text": "Letdown"
+        },
+        {
+          "text": "Mediocre"
+        },
+        {
+          "text": "Messy"
+        },
+        {
+          "text": "Misleading information"
+        },
+        {
+          "text": "Missed expectations"
+        },
+        {
+          "text": "Needs improvement"
+        },
+        {
+          "text": "Not acceptable"
+        },
+        {
+          "text": "Not as advertised"
+        },
+        {
+          "text": "Not dependable"
+        },
+        {
+          "text": "Not dependable service"
+        },
+        {
+          "text": "Not good"
+        },
+        {
+          "text": "Not good enough"
+        },
+        {
+          "text": "Not happy"
+        },
+        {
+          "text": "Not helpful"
+        },
+        {
+          "text": "Not impressed"
+        },
+        {
+          "text": "Not pleased"
+        },
+        {
+          "text": "Not reliable"
+        },
+        {
+          "text": "Not satisfactory"
+        },
+        {
+          "text": "Not satisfied"
+        },
+        {
+          "text": "Not up to par"
+        },
+        {
+          "text": "Not up to standard"
+        },
+        {
+          "text": "Not user-friendly"
+        },
+        {
+          "text": "Not what I expected"
+        },
+        {
+          "text": "Not what was promised"
+        },
+        {
+          "text": "Not working"
+        },
+        {
+          "text": "Offended"
+        },
+        {
+          "text": "Outdated"
+        },
+        {
+          "text": "Outdated service"
+        },
+        {
+          "text": "Outdated system"
+        },
+        {
+          "text": "Overwhelming"
+        },
+        {
+          "text": "Overwhelming service"
+        },
+        {
+          "text": "Poor"
+        },
+        {
+          "text": "Poor communication"
+        },
+        {
+          "text": "Poor customer service"
+        },
+        {
+          "text": "Poorly designed"
+        },
+        {
+          "text": "Poorly designed service"
+        },
+        {
+          "text": "Poorly designed system"
+        },
+        {
+          "text": "Poorly done"
+        },
+        {
+          "text": "Poorly executed"
+        },
+        {
+          "text": "Poorly handled"
+        },
+        {
+          "text": "Poorly managed"
+        },
+        {
+          "text": "Poorly organized"
+        },
+        {
+          "text": "Poorly structured"
+        },
+        {
+          "text": "Poor management"
+        },
+        {
+          "text": "Poor quality"
+        },
+        {
+          "text": "Poor quality service"
+        },
+        {
+          "text": "Poor service"
+        },
+        {
+          "text": "Problematic"
+        },
+        {
+          "text": "Problems"
+        },
+        {
+          "text": "Regrettable"
+        },
+        {
+          "text": "Rude customer service"
+        },
+        {
+          "text": "Rude service"
+        },
+        {
+          "text": "Slow customer service"
+        },
+        {
+          "text": "Slow response"
+        },
+        {
+          "text": "Slow response time"
+        },
+        {
+          "text": "Slow service"
+        },
+        {
+          "text": "Slow system"
+        },
+        {
+          "text": "Subpar"
+        },
+        {
+          "text": "Technical issues"
+        },
+        {
+          "text": "Technical issues in service"
+        },
+        {
+          "text": "Terrible"
+        },
+        {
+          "text": "Too complex"
+        },
+        {
+          "text": "Too complex service"
+        },
+        {
+          "text": "Unacceptable"
+        },
+        {
+          "text": "Unacceptable behavior"
+        },
+        {
+          "text": "Unacceptable customer service"
+        },
+        {
+          "text": "Unacceptable experience"
+        },
+        {
+          "text": "Unacceptable outcome"
+        },
+        {
+          "text": "Unacceptable performance"
+        },
+        {
+          "text": "Unacceptable quality"
+        },
+        {
+          "text": "Unacceptable response"
+        },
+        {
+          "text": "Unacceptable result"
+        },
+        {
+          "text": "Unacceptable service"
+        },
+        {
+          "text": "Unappealing"
+        },
+        {
+          "text": "Unavailable"
+        },
+        {
+          "text": "Unclear"
+        },
+        {
+          "text": "Unclear instructions"
+        },
+        {
+          "text": "Unclear service"
+        },
+        {
+          "text": "Uncomfortable"
+        },
+        {
+          "text": "Unfavorable"
+        },
+        {
+          "text": "Unfortunate"
+        },
+        {
+          "text": "Unfriendly"
+        },
+        {
+          "text": "Unhappy"
+        },
+        {
+          "text": "Unimpressed with behavior"
+        },
+        {
+          "text": "Unimpressed with experience"
+        },
+        {
+          "text": "Unimpressed with outcome"
+        },
+        {
+          "text": "Unimpressed with quality"
+        },
+        {
+          "text": "Unimpressed with response"
+        },
+        {
+          "text": "Unimpressed with service"
+        },
+        {
+          "text": "Unimpressive"
+        },
+        {
+          "text": "Unimpressive outcome"
+        },
+        {
+          "text": "Unimpressive quality"
+        },
+        {
+          "text": "Unimpressive result"
+        },
+        {
+          "text": "Unimpressive service"
+        },
+        {
+          "text": "Uninspiring"
+        },
+        {
+          "text": "Unnecessary"
+        },
+        {
+          "text": "Unnecessary service"
+        },
+        {
+          "text": "Unnecessary system"
+        },
+        {
+          "text": "Unpleasant"
+        },
+        {
+          "text": "Unpleasant experience"
+        },
+        {
+          "text": "Unproductive"
+        },
+        {
+          "text": "Unprofessional"
+        },
+        {
+          "text": "Unprofessional behavior"
+        },
+        {
+          "text": "Unprofessional service"
+        },
+        {
+          "text": "Unreliable"
+        },
+        {
+          "text": "Unreliable service"
+        },
+        {
+          "text": "Unreliable system"
+        },
+        {
+          "text": "Unresponsive"
+        },
+        {
+          "text": "Unresponsive service"
+        },
+        {
+          "text": "Unsatisfactory"
+        },
+        {
+          "text": "Unsatisfactory customer service"
+        },
+        {
+          "text": "Unsatisfactory experience"
+        },
+        {
+          "text": "Unsatisfactory outcome"
+        },
+        {
+          "text": "Unsatisfactory quality"
+        },
+        {
+          "text": "Unsatisfactory result"
+        },
+        {
+          "text": "Unsatisfactory service"
+        },
+        {
+          "text": "Unsatisfied"
+        },
+        {
+          "text": "Unsatisfied with behavior"
+        },
+        {
+          "text": "Unsatisfied with experience"
+        },
+        {
+          "text": "Unsatisfied with outcome"
+        },
+        {
+          "text": "Unsatisfied with quality"
+        },
+        {
+          "text": "Unsatisfied with response"
+        },
+        {
+          "text": "Unsatisfied with service"
+        },
+        {
+          "text": "Unsatisfying"
+        },
+        {
+          "text": "Unstructured"
+        },
+        {
+          "text": "Upset"
+        },
+        {
+          "text": "Wasted time"
+        },
+        {
+          "text": "Worse"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Feedback_Good",
+      "examples": [
+        {
+          "text": "Above and beyond"
+        },
+        {
+          "text": "A brilliant job"
+        },
+        {
+          "text": "A commendable effort"
+        },
+        {
+          "text": "A commendable job"
+        },
+        {
+          "text": "Admirable"
+        },
+        {
+          "text": "A fabulous effort"
+        },
+        {
+          "text": "A fabulous job"
+        },
+        {
+          "text": "A fantastic effort"
+        },
+        {
+          "text": "A fantastic job"
+        },
+        {
+          "text": "A faultless effort"
+        },
+        {
+          "text": "A faultless job"
+        },
+        {
+          "text": "A fine effort"
+        },
+        {
+          "text": "A fine job"
+        },
+        {
+          "text": "A flawless effort"
+        },
+        {
+          "text": "A flawless experience"
+        },
+        {
+          "text": "A flawless job"
+        },
+        {
+          "text": "A great effort"
+        },
+        {
+          "text": "A great job"
+        },
+        {
+          "text": "A high-caliber effort"
+        },
+        {
+          "text": "A high-caliber job"
+        },
+        {
+          "text": "A high-quality effort"
+        },
+        {
+          "text": "A high-quality job"
+        },
+        {
+          "text": "A job well done"
+        },
+        {
+          "text": "A masterful effort"
+        },
+        {
+          "text": "A masterful job"
+        },
+        {
+          "text": "Amazing"
+        },
+        {
+          "text": "An excellent effort"
+        },
+        {
+          "text": "An excellent job"
+        },
+        {
+          "text": "An exceptional effort"
+        },
+        {
+          "text": "An exceptional job"
+        },
+        {
+          "text": "An exceptional service"
+        },
+        {
+          "text": "An exemplary effort"
+        },
+        {
+          "text": "An exemplary job"
+        },
+        {
+          "text": "An exemplary service"
+        },
+        {
+          "text": "An impressive effort"
+        },
+        {
+          "text": "An impressive job"
+        },
+        {
+          "text": "An outstanding effort"
+        },
+        {
+          "text": "An outstanding job"
+        },
+        {
+          "text": "A perfect effort"
+        },
+        {
+          "text": "A perfect job"
+        },
+        {
+          "text": "A phenomenal effort"
+        },
+        {
+          "text": "A phenomenal job"
+        },
+        {
+          "text": "A phenomenal service"
+        },
+        {
+          "text": "A polished effort"
+        },
+        {
+          "text": "A polished job"
+        },
+        {
+          "text": "Applaudable"
+        },
+        {
+          "text": "A praiseworthy effort"
+        },
+        {
+          "text": "A praiseworthy job"
+        },
+        {
+          "text": "A precise effort"
+        },
+        {
+          "text": "A precise job"
+        },
+        {
+          "text": "A remarkable effort"
+        },
+        {
+          "text": "A remarkable job"
+        },
+        {
+          "text": "A seamless effort"
+        },
+        {
+          "text": "A seamless job"
+        },
+        {
+          "text": "A skillful effort"
+        },
+        {
+          "text": "A skillful job"
+        },
+        {
+          "text": "A smooth effort"
+        },
+        {
+          "text": "A smooth job"
+        },
+        {
+          "text": "A splendid effort"
+        },
+        {
+          "text": "A splendid job"
+        },
+        {
+          "text": "A stellar effort"
+        },
+        {
+          "text": "A superb effort"
+        },
+        {
+          "text": "A superb job"
+        },
+        {
+          "text": "A terrific effort"
+        },
+        {
+          "text": "A terrific job"
+        },
+        {
+          "text": "A top-class effort"
+        },
+        {
+          "text": "A top-class job"
+        },
+        {
+          "text": "A top-flight effort"
+        },
+        {
+          "text": "A top-flight job"
+        },
+        {
+          "text": "A top-notch effort"
+        },
+        {
+          "text": "A top-notch job"
+        },
+        {
+          "text": "A top-quality effort"
+        },
+        {
+          "text": "A top-quality job"
+        },
+        {
+          "text": "A top-tier effort"
+        },
+        {
+          "text": "A top-tier job"
+        },
+        {
+          "text": "Awesome"
+        },
+        {
+          "text": "A wonderful effort"
+        },
+        {
+          "text": "A wonderful job"
+        },
+        {
+          "text": "A wonderful service"
+        },
+        {
+          "text": "Bravo"
+        },
+        {
+          "text": "Bravo to you"
+        },
+        {
+          "text": "Brilliant"
+        },
+        {
+          "text": "Commendable"
+        },
+        {
+          "text": "Cool"
+        },
+        {
+          "text": "Excellent"
+        },
+        {
+          "text": "Excellent support"
+        },
+        {
+          "text": "Exceptional"
+        },
+        {
+          "text": "Exceptional job"
+        },
+        {
+          "text": "Exceptionally effective"
+        },
+        {
+          "text": "Exceptionally efficient"
+        },
+        {
+          "text": "Exceptionally good"
+        },
+        {
+          "text": "Exceptionally helpful"
+        },
+        {
+          "text": "Exceptionally impressive"
+        },
+        {
+          "text": "Exceptionally nice"
+        },
+        {
+          "text": "Exceptionally pleasing"
+        },
+        {
+          "text": "Exceptionally reliable"
+        },
+        {
+          "text": "Exceptionally responsive"
+        },
+        {
+          "text": "Exceptionally satisfactory"
+        },
+        {
+          "text": "Exceptionally well"
+        },
+        {
+          "text": "Exceptionally well done"
+        },
+        {
+          "text": "Exemplary work"
+        },
+        {
+          "text": "Expertly managed"
+        },
+        {
+          "text": "Extremely effective"
+        },
+        {
+          "text": "Extremely efficient"
+        },
+        {
+          "text": "Extremely good"
+        },
+        {
+          "text": "Extremely helpful"
+        },
+        {
+          "text": "Extremely impressive"
+        },
+        {
+          "text": "Extremely nice"
+        },
+        {
+          "text": "Extremely pleasing"
+        },
+        {
+          "text": "Extremely reliable"
+        },
+        {
+          "text": "Extremely responsive"
+        },
+        {
+          "text": "Extremely satisfactory"
+        },
+        {
+          "text": "Extremely well"
+        },
+        {
+          "text": "Extremely well done"
+        },
+        {
+          "text": "Fantastic"
+        },
+        {
+          "text": "First-rate service"
+        },
+        {
+          "text": "Flawless execution"
+        },
+        {
+          "text": "Good"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "Happy"
+        },
+        {
+          "text": "I appreciate it"
+        },
+        {
+          "text": "I'm delighted"
+        },
+        {
+          "text": "I'm grateful"
+        },
+        {
+          "text": "I'm happy"
+        },
+        {
+          "text": "I'm impressed"
+        },
+        {
+          "text": "I'm pleased"
+        },
+        {
+          "text": "Impressive"
+        },
+        {
+          "text": "Impressive outcome"
+        },
+        {
+          "text": "I'm satisfied"
+        },
+        {
+          "text": "I'm thrilled"
+        },
+        {
+          "text": "Incredible job"
+        },
+        {
+          "text": "Incredibly effective"
+        },
+        {
+          "text": "Incredibly efficient"
+        },
+        {
+          "text": "Incredibly good"
+        },
+        {
+          "text": "Incredibly helpful"
+        },
+        {
+          "text": "Incredibly impressive"
+        },
+        {
+          "text": "Incredibly nice"
+        },
+        {
+          "text": "Incredibly pleasing"
+        },
+        {
+          "text": "Incredibly reliable"
+        },
+        {
+          "text": "Incredibly responsive"
+        },
+        {
+          "text": "Incredibly satisfactory"
+        },
+        {
+          "text": "Incredibly well"
+        },
+        {
+          "text": "Incredibly well done"
+        },
+        {
+          "text": "Keep up the amazing work"
+        },
+        {
+          "text": "Keep up the awesome work"
+        },
+        {
+          "text": "Keep up the brilliant work"
+        },
+        {
+          "text": "Keep up the commendable work"
+        },
+        {
+          "text": "Keep up the excellent work"
+        },
+        {
+          "text": "Keep up the fantastic work"
+        },
+        {
+          "text": "Keep up the good work"
+        },
+        {
+          "text": "Keep up the great work"
+        },
+        {
+          "text": "Keep up the impressive work"
+        },
+        {
+          "text": "Keep up the outstanding work"
+        },
+        {
+          "text": "Keep up the phenomenal work"
+        },
+        {
+          "text": "Keep up the praiseworthy work"
+        },
+        {
+          "text": "Keep up the remarkable work"
+        },
+        {
+          "text": "Keep up the splendid work"
+        },
+        {
+          "text": "Keep up the stellar work"
+        },
+        {
+          "text": "Keep up the superb work"
+        },
+        {
+          "text": "Keep up the terrific work"
+        },
+        {
+          "text": "Kudos"
+        },
+        {
+          "text": "Love it"
+        },
+        {
+          "text": "Many thanks"
+        },
+        {
+          "text": "Marvelous"
+        },
+        {
+          "text": "Masterful execution"
+        },
+        {
+          "text": "Much appreciated"
+        },
+        {
+          "text": "Nice"
+        },
+        {
+          "text": "Outstanding"
+        },
+        {
+          "text": "Outstanding effort"
+        },
+        {
+          "text": "Outstanding job"
+        },
+        {
+          "text": "Outstanding service"
+        },
+        {
+          "text": "Perfect"
+        },
+        {
+          "text": "Perfectly handled"
+        },
+        {
+          "text": "Phenomenal"
+        },
+        {
+          "text": "Phenomenal effort"
+        },
+        {
+          "text": "Praiseworthy"
+        },
+        {
+          "text": "Quite effective"
+        },
+        {
+          "text": "Quite efficient"
+        },
+        {
+          "text": "Quite good"
+        },
+        {
+          "text": "Quite helpful"
+        },
+        {
+          "text": "Quite impressive"
+        },
+        {
+          "text": "Quite nice"
+        },
+        {
+          "text": "Quite pleasing"
+        },
+        {
+          "text": "Quite professional"
+        },
+        {
+          "text": "Quite reliable"
+        },
+        {
+          "text": "Quite responsive"
+        },
+        {
+          "text": "Quite satisfactory"
+        },
+        {
+          "text": "Quite well"
+        },
+        {
+          "text": "Quite well done"
+        },
+        {
+          "text": "Really effective"
+        },
+        {
+          "text": "Really efficient"
+        },
+        {
+          "text": "Really good"
+        },
+        {
+          "text": "Really helpful"
+        },
+        {
+          "text": "Really impressive"
+        },
+        {
+          "text": "Really nice"
+        },
+        {
+          "text": "Really pleasing"
+        },
+        {
+          "text": "Really professional"
+        },
+        {
+          "text": "Really reliable"
+        },
+        {
+          "text": "Really responsive"
+        },
+        {
+          "text": "Really satisfactory"
+        },
+        {
+          "text": "Really well"
+        },
+        {
+          "text": "Really well done"
+        },
+        {
+          "text": "Remarkable"
+        },
+        {
+          "text": "Remarkable performance"
+        },
+        {
+          "text": "Satisfied"
+        },
+        {
+          "text": "Seamless experience"
+        },
+        {
+          "text": "Skillfully handled"
+        },
+        {
+          "text": "Spectacular"
+        },
+        {
+          "text": "Splendid"
+        },
+        {
+          "text": "Stellar"
+        },
+        {
+          "text": "Superb"
+        },
+        {
+          "text": "Superb effort"
+        },
+        {
+          "text": "Super effective"
+        },
+        {
+          "text": "Super efficient"
+        },
+        {
+          "text": "Super good"
+        },
+        {
+          "text": "Super helpful"
+        },
+        {
+          "text": "Super impressive"
+        },
+        {
+          "text": "Super nice"
+        },
+        {
+          "text": "Super pleasing"
+        },
+        {
+          "text": "Super reliable"
+        },
+        {
+          "text": "Super responsive"
+        },
+        {
+          "text": "Super satisfactory"
+        },
+        {
+          "text": "Super well"
+        },
+        {
+          "text": "Super well done"
+        },
+        {
+          "text": "Terrific"
+        },
+        {
+          "text": "Thanks a lot"
+        },
+        {
+          "text": "Thanks so much"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is amazing"
+        },
+        {
+          "text": "This is awesome"
+        },
+        {
+          "text": "This is brilliant"
+        },
+        {
+          "text": "This is commendable"
+        },
+        {
+          "text": "This is excellent"
+        },
+        {
+          "text": "This is fantastic"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is impressive"
+        },
+        {
+          "text": "This is outstanding"
+        },
+        {
+          "text": "This is phenomenal"
+        },
+        {
+          "text": "This is praiseworthy"
+        },
+        {
+          "text": "This is remarkable"
+        },
+        {
+          "text": "This is splendid"
+        },
+        {
+          "text": "This is stellar"
+        },
+        {
+          "text": "This is superb"
+        },
+        {
+          "text": "This is terrific"
+        },
+        {
+          "text": "This is wonderful"
+        },
+        {
+          "text": "Thumbs up"
+        },
+        {
+          "text": "Thumbs up to you"
+        },
+        {
+          "text": "Top-notch service"
+        },
+        {
+          "text": "Truly effective"
+        },
+        {
+          "text": "Truly efficient"
+        },
+        {
+          "text": "Truly exceptional"
+        },
+        {
+          "text": "Truly good"
+        },
+        {
+          "text": "Truly helpful"
+        },
+        {
+          "text": "Truly impressive"
+        },
+        {
+          "text": "Truly nice"
+        },
+        {
+          "text": "Truly pleasing"
+        },
+        {
+          "text": "Truly professional"
+        },
+        {
+          "text": "Truly reliable"
+        },
+        {
+          "text": "Truly responsive"
+        },
+        {
+          "text": "Truly satisfactory"
+        },
+        {
+          "text": "Truly well"
+        },
+        {
+          "text": "Truly well done"
+        },
+        {
+          "text": "Unmatched quality"
+        },
+        {
+          "text": "Very effective"
+        },
+        {
+          "text": "Very efficient"
+        },
+        {
+          "text": "Very good"
+        },
+        {
+          "text": "Very helpful"
+        },
+        {
+          "text": "Very impressive"
+        },
+        {
+          "text": "Very nice"
+        },
+        {
+          "text": "Very pleasing"
+        },
+        {
+          "text": "Very professional"
+        },
+        {
+          "text": "Very reliable"
+        },
+        {
+          "text": "Very responsive"
+        },
+        {
+          "text": "Very satisfactory"
+        },
+        {
+          "text": "Very well"
+        },
+        {
+          "text": "Very well done"
+        },
+        {
+          "text": "Way to go"
+        },
+        {
+          "text": "Well done"
+        },
+        {
+          "text": "Well-done"
+        },
+        {
+          "text": "Well played"
+        },
+        {
+          "text": "Wonderful"
+        },
+        {
+          "text": "You did a brilliant job"
+        },
+        {
+          "text": "You did a commendable job"
+        },
+        {
+          "text": "You did a fantastic job"
+        },
+        {
+          "text": "You did a great job"
+        },
+        {
+          "text": "You did an amazing job"
+        },
+        {
+          "text": "You did an awesome job"
+        },
+        {
+          "text": "You did an excellent job"
+        },
+        {
+          "text": "You did an impressive job"
+        },
+        {
+          "text": "You did an outstanding job"
+        },
+        {
+          "text": "You did a phenomenal job"
+        },
+        {
+          "text": "You did a praiseworthy job"
+        },
+        {
+          "text": "You did a remarkable job"
+        },
+        {
+          "text": "You did a splendid job"
+        },
+        {
+          "text": "You did a stellar job"
+        },
+        {
+          "text": "You did a superb job"
+        },
+        {
+          "text": "You did a terrific job"
+        },
+        {
+          "text": "You did a wonderful job"
+        },
+        {
+          "text": "You made my day"
+        },
+        {
+          "text": "You're amazing"
+        },
+        {
+          "text": "You're awesome"
+        },
+        {
+          "text": "You're fantastic"
+        },
+        {
+          "text": "You're the best"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "get_name",
+      "examples": [
+        {
+          "text": "Abigail"
+        },
+        {
+          "text": "Abigail E. C.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alexander",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alexander D.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alexander David",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alexander David Martinez"
+        },
+        {
+          "text": "Alexander David Martinez Ethan Christopher Hernandez",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                52
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alexander David Miller",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alexander D. M."
+        },
+        {
+          "text": "Alexander W.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alexander W. A.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alexander William",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alexander William Ethan Christopher",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alice",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "amit"
+        },
+        {
+          "text": "ananya",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Andrew",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Andrew B.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Andrew Benjamin",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Anthony",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Anthony W. J.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "arjun",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ava",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ava E.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ava E. E.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ava Elizabeth",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ava Elizabeth Emma Grace Thompson",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ava S.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ava S. H.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ava Sophia",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ava Sophia Hernandez",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ava Sophia Smith",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ava S. S.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Benjamin",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Benjamin M."
+        },
+        {
+          "text": "Benjamin M. A.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Benjamin Michael",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Benjamin Michael Alexander William",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Benjamin R.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Benjamin R. M.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Benjamin Robert",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Benjamin Robert Miller",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Benjamin Robert Miller Alexander David Martinez",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                47
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Benjamin Robert Wilson",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Benjamin R. W.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Chloe",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Chloe O.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Chloe Olivia",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Christopher",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Christopher D.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Christopher Daniel"
+        },
+        {
+          "text": "Daniel"
+        },
+        {
+          "text": "Daniel A.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Daniel Anthony",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "deepak"
+        },
+        {
+          "text": "devika"
+        },
+        {
+          "text": "Elizabeth"
+        },
+        {
+          "text": "Elizabeth E.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Elizabeth Emma",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Emily"
+        },
+        {
+          "text": "Emma"
+        },
+        {
+          "text": "Emma C.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Emma Charlotte",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Emma Charlotte Sophia Grace",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Emma C. S.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Emma G.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Emma Grace",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Emma Grace Smith",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Emma Grace Thompson",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Emma Grace Thompson Sophia Marie Wilson",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Emma G. S.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Emma G. T.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ethan",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ethan C.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ethan C. H.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ethan Christopher",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ethan Christopher Hernandez",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ethan Christopher Martinez",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ethan Christopher Michael Christopher Johnson",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ethan C. M.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Grace"
+        },
+        {
+          "text": "Grace S.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Grace Sophia",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hannah"
+        },
+        {
+          "text": "Hannah I.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hannah Isabella",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Isabella"
+        },
+        {
+          "text": "James"
+        },
+        {
+          "text": "James A.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "James A. B."
+        },
+        {
+          "text": "James Alexander",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "James Alexander Benjamin Michael",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                0,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "John"
+        },
+        {
+          "text": "Joshua"
+        },
+        {
+          "text": "Joshua M."
+        },
+        {
+          "text": "Joshua Michael"
+        },
+        {
+          "text": "kiran"
+        },
+        {
+          "text": "Liam"
+        },
+        {
+          "text": "Logan"
+        },
+        {
+          "text": "Logan W."
+        },
+        {
+          "text": "Logan William"
+        },
+        {
+          "text": "Madison"
+        },
+        {
+          "text": "Madison S."
+        },
+        {
+          "text": "Madison Samantha"
+        },
+        {
+          "text": "manoj"
+        },
+        {
+          "text": "Matthew"
+        },
+        {
+          "text": "Matthew E."
+        },
+        {
+          "text": "Matthew Ethan"
+        },
+        {
+          "text": "Mia"
+        },
+        {
+          "text": "Mia E."
+        },
+        {
+          "text": "Mia E. G."
+        },
+        {
+          "text": "Mia Elizabeth"
+        },
+        {
+          "text": "Mia Elizabeth Garcia"
+        },
+        {
+          "text": "Mia Elizabeth Garcia Ava Sophia Smith"
+        },
+        {
+          "text": "Mia S."
+        },
+        {
+          "text": "Mia Sophia"
+        },
+        {
+          "text": "Mia Sophia Ava Elizabeth"
+        },
+        {
+          "text": "Mia S. S."
+        },
+        {
+          "text": "Michael"
+        },
+        {
+          "text": "Michael Christopher Johnson"
+        },
+        {
+          "text": "Michael Christopher Johnson William James Brown"
+        },
+        {
+          "text": "Michael C. J."
+        },
+        {
+          "text": "Michael T."
+        },
+        {
+          "text": "Michael Thomas"
+        },
+        {
+          "text": "Michael Thomas Johnson"
+        },
+        {
+          "text": "Michael T. J."
+        },
+        {
+          "text": "my name is Abigail"
+        },
+        {
+          "text": "my name is Abigail E. C."
+        },
+        {
+          "text": "my name is Alexander"
+        },
+        {
+          "text": "my name is Alexander D."
+        },
+        {
+          "text": "my name is Alexander David"
+        },
+        {
+          "text": "my name is Alexander David Martinez"
+        },
+        {
+          "text": "my name is Alexander David Martinez Ethan Christopher Hernandez"
+        },
+        {
+          "text": "my name is Alexander David Miller"
+        },
+        {
+          "text": "my name is Alexander D. M."
+        },
+        {
+          "text": "my name is Alexander W."
+        },
+        {
+          "text": "my name is Alexander W. A."
+        },
+        {
+          "text": "my name is Alexander William",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Alexander William Ethan Christopher",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                46
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Alice",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is amit",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is ananya",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Andrew"
+        },
+        {
+          "text": "my name is Andrew B.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Andrew Benjamin",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Anthony",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Anthony W. J.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is arjun",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Ava",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Ava E.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Ava E. E.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Ava Elizabeth",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Ava Elizabeth Emma Grace Thompson",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                44
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Ava S.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Ava S. H.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Ava Sophia",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Ava Sophia Hernandez",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Ava Sophia Smith",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Ava S. S.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Benjamin",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Benjamin M.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Benjamin M. A.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Benjamin Michael",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Benjamin Michael Alexander William",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Benjamin R.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Benjamin R. M.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Benjamin Robert",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Benjamin Robert Miller",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Benjamin Robert Miller Alexander David Martinez",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                58
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Benjamin Robert Wilson",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Benjamin R. W.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Chloe",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Chloe O.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Chloe Olivia",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Christopher",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Christopher D.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Christopher Daniel",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Daniel",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Daniel A.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Daniel Anthony",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is deepak",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is devika",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Elizabeth",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Elizabeth E.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Elizabeth Emma",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Emily",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Emma",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Emma C.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Emma Charlotte",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Emma Charlotte Sophia Grace",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                38
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Emma C. S.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Emma G."
+        },
+        {
+          "text": "my name is Emma Grace"
+        },
+        {
+          "text": "my name is Emma Grace Smith"
+        },
+        {
+          "text": "my name is Emma Grace Thompson"
+        },
+        {
+          "text": "my name is Emma Grace Thompson Sophia Marie Wilson"
+        },
+        {
+          "text": "my name is Emma G. S."
+        },
+        {
+          "text": "my name is Emma G. T."
+        },
+        {
+          "text": "my name is Ethan"
+        },
+        {
+          "text": "my name is Ethan C."
+        },
+        {
+          "text": "my name is Ethan C. H."
+        },
+        {
+          "text": "my name is Ethan Christopher"
+        },
+        {
+          "text": "my name is Ethan Christopher Hernandez"
+        },
+        {
+          "text": "my name is Ethan Christopher Martinez"
+        },
+        {
+          "text": "my name is Ethan Christopher Michael Christopher Johnson"
+        },
+        {
+          "text": "my name is Ethan C. M."
+        },
+        {
+          "text": "my name is Grace"
+        },
+        {
+          "text": "my name is Grace S."
+        },
+        {
+          "text": "my name is Grace Sophia"
+        },
+        {
+          "text": "my name is Hannah"
+        },
+        {
+          "text": "my name is Hannah I."
+        },
+        {
+          "text": "my name is Hannah Isabella"
+        },
+        {
+          "text": "my name is Isabella"
+        },
+        {
+          "text": "my name is James"
+        },
+        {
+          "text": "my name is James A."
+        },
+        {
+          "text": "my name is James A. B."
+        },
+        {
+          "text": "my name is James Alexander"
+        },
+        {
+          "text": "my name is James Alexander Benjamin Michael"
+        },
+        {
+          "text": "my name is John"
+        },
+        {
+          "text": "my name is Joshua"
+        },
+        {
+          "text": "my name is Joshua M."
+        },
+        {
+          "text": "my name is Joshua Michael"
+        },
+        {
+          "text": "my name is kiran"
+        },
+        {
+          "text": "my name is Liam"
+        },
+        {
+          "text": "my name is Logan"
+        },
+        {
+          "text": "my name is Logan W."
+        },
+        {
+          "text": "my name is Logan William"
+        },
+        {
+          "text": "my name is Madison"
+        },
+        {
+          "text": "my name is Madison S."
+        },
+        {
+          "text": "my name is Madison Samantha"
+        },
+        {
+          "text": "my name is manoj"
+        },
+        {
+          "text": "my name is Matthew"
+        },
+        {
+          "text": "my name is Matthew E."
+        },
+        {
+          "text": "my name is Matthew Ethan"
+        },
+        {
+          "text": "my name is Mia"
+        },
+        {
+          "text": "my name is Mia E."
+        },
+        {
+          "text": "my name is Mia E. G.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Mia Elizabeth"
+        },
+        {
+          "text": "my name is Mia Elizabeth Garcia"
+        },
+        {
+          "text": "my name is Mia Elizabeth Garcia Ava Sophia Smith"
+        },
+        {
+          "text": "my name is Mia S."
+        },
+        {
+          "text": "my name is Mia Sophia"
+        },
+        {
+          "text": "my name is Mia Sophia Ava Elizabeth"
+        },
+        {
+          "text": "my name is Mia S. S."
+        },
+        {
+          "text": "my name is Michael"
+        },
+        {
+          "text": "my name is Michael Christopher Johnson"
+        },
+        {
+          "text": "my name is Michael Christopher Johnson William James Brown"
+        },
+        {
+          "text": "my name is Michael C. J."
+        },
+        {
+          "text": "my name is Michael T."
+        },
+        {
+          "text": "my name is Michael Thomas"
+        },
+        {
+          "text": "my name is Michael Thomas Johnson"
+        },
+        {
+          "text": "my name is Michael T. J."
+        },
+        {
+          "text": "my name is Nathan"
+        },
+        {
+          "text": "my name is Nathan A."
+        },
+        {
+          "text": "my name is Nathan Alexander"
+        },
+        {
+          "text": "my name is neha"
+        },
+        {
+          "text": "my name is nidhi"
+        },
+        {
+          "text": "my name is Olivia"
+        },
+        {
+          "text": "my name is Olivia A."
+        },
+        {
+          "text": "my name is Olivia A. D."
+        },
+        {
+          "text": "my name is Olivia Anne"
+        },
+        {
+          "text": "my name is Olivia Anne Davis"
+        },
+        {
+          "text": "my name is Olivia Anne Davis Mia Elizabeth Garcia"
+        },
+        {
+          "text": "my name is Olivia Anne Thompson"
+        },
+        {
+          "text": "my name is Olivia A. T."
+        },
+        {
+          "text": "my name is Olivia R."
+        },
+        {
+          "text": "my name is Olivia R. M."
+        },
+        {
+          "text": "my name is Olivia Rose"
+        },
+        {
+          "text": "my name is Olivia Rose Mia Sophia"
+        },
+        {
+          "text": "my name is pallavi"
+        },
+        {
+          "text": "my name is priya"
+        },
+        {
+          "text": "my name is rahul"
+        },
+        {
+          "text": "my name is raj"
+        },
+        {
+          "text": "my name is ravi"
+        },
+        {
+          "text": "my name is Robert"
+        },
+        {
+          "text": "my name is rohit"
+        },
+        {
+          "text": "my name is Samantha"
+        },
+        {
+          "text": "my name is Samantha A."
+        },
+        {
+          "text": "my name is Samantha Abigail",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is sandeep"
+        },
+        {
+          "text": "my name is sanjeev"
+        },
+        {
+          "text": "my name is Sarah"
+        },
+        {
+          "text": "my name is sneha"
+        },
+        {
+          "text": "my name is Sophia"
+        },
+        {
+          "text": "my name is Sophia G."
+        },
+        {
+          "text": "my name is Sophia G. O."
+        },
+        {
+          "text": "my name is Sophia Grace",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Sophia Grace Olivia Rose"
+        },
+        {
+          "text": "my name is Sophia M.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Sophia Marie"
+        },
+        {
+          "text": "my name is Sophia Marie Davis"
+        },
+        {
+          "text": "my name is Sophia Marie Wilson",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Sophia Marie Wilson Olivia Anne Davis",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Sophia M. D."
+        },
+        {
+          "text": "my name is Sophia M. W.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Victoria"
+        },
+        {
+          "text": "my name is Victoria E.",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Victoria Elizabeth",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is vikas",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is vishnu",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                11,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is William"
+        },
+        {
+          "text": "my name is William J."
+        },
+        {
+          "text": "my name is William J. A."
+        },
+        {
+          "text": "my name is William Jacob"
+        },
+        {
+          "text": "my name is William Jacob James Alexander"
+        },
+        {
+          "text": "my name is William James"
+        },
+        {
+          "text": "my name is William James Brown"
+        },
+        {
+          "text": "my name is William James Brown Benjamin Robert Miller"
+        },
+        {
+          "text": "my name is William J. B."
+        },
+        {
+          "text": "Nathan"
+        },
+        {
+          "text": "Nathan A."
+        },
+        {
+          "text": "Nathan Alexander"
+        },
+        {
+          "text": "neha"
+        },
+        {
+          "text": "nidhi"
+        },
+        {
+          "text": "Olivia"
+        },
+        {
+          "text": "Olivia A."
+        },
+        {
+          "text": "Olivia A. D."
+        },
+        {
+          "text": "Olivia Anne"
+        },
+        {
+          "text": "Olivia Anne Davis"
+        },
+        {
+          "text": "Olivia Anne Davis Mia Elizabeth Garcia"
+        },
+        {
+          "text": "Olivia Anne Thompson"
+        },
+        {
+          "text": "Olivia A. T."
+        },
+        {
+          "text": "Olivia R."
+        },
+        {
+          "text": "Olivia R. M."
+        },
+        {
+          "text": "Olivia Rose"
+        },
+        {
+          "text": "Olivia Rose Mia Sophia"
+        },
+        {
+          "text": "pallavi"
+        },
+        {
+          "text": "priya"
+        },
+        {
+          "text": "rahul"
+        },
+        {
+          "text": "raj"
+        },
+        {
+          "text": "ravi"
+        },
+        {
+          "text": "Robert"
+        },
+        {
+          "text": "rohit"
+        },
+        {
+          "text": "Samantha"
+        },
+        {
+          "text": "Samantha A."
+        },
+        {
+          "text": "Samantha Abigail"
+        },
+        {
+          "text": "sandeep"
+        },
+        {
+          "text": "sanjeev"
+        },
+        {
+          "text": "Sarah"
+        },
+        {
+          "text": "sneha"
+        },
+        {
+          "text": "Sophia"
+        },
+        {
+          "text": "Sophia G."
+        },
+        {
+          "text": "Sophia G. O."
+        },
+        {
+          "text": "Sophia Grace"
+        },
+        {
+          "text": "Sophia Grace Olivia Rose"
+        },
+        {
+          "text": "Sophia M."
+        },
+        {
+          "text": "Sophia Marie"
+        },
+        {
+          "text": "Sophia Marie Davis"
+        },
+        {
+          "text": "Sophia Marie Wilson"
+        },
+        {
+          "text": "Sophia Marie Wilson Olivia Anne Davis"
+        },
+        {
+          "text": "Sophia M. D."
+        },
+        {
+          "text": "Sophia M. W."
+        },
+        {
+          "text": "Victoria"
+        },
+        {
+          "text": "Victoria E."
+        },
+        {
+          "text": "Victoria Elizabeth"
+        },
+        {
+          "text": "vikas"
+        },
+        {
+          "text": "vishnu"
+        },
+        {
+          "text": "William"
+        },
+        {
+          "text": "William J."
+        },
+        {
+          "text": "William J. A."
+        },
+        {
+          "text": "William Jacob"
+        },
+        {
+          "text": "William Jacob James Alexander"
+        },
+        {
+          "text": "William James"
+        },
+        {
+          "text": "William James Brown"
+        },
+        {
+          "text": "William James Brown Benjamin Robert Miller"
+        },
+        {
+          "text": "William J. B."
+        }
+      ]
+    },
+    {
+      "intent": "greeting_intent",
+      "examples": [
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "good evening",
+          "mentions": [
+            {
+              "entity": "greeting",
+              "location": [
+                0,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "good morning",
+          "mentions": [
+            {
+              "entity": "greeting",
+              "location": [
+                0,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "good night",
+          "mentions": [
+            {
+              "entity": "greeting",
+              "location": [
+                0,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "hello",
+          "mentions": [
+            {
+              "entity": "greeting",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "hey",
+          "mentions": [
+            {
+              "entity": "greeting",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "hi",
+          "mentions": [
+            {
+              "entity": "greeting",
+              "location": [
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "text": "yo",
+          "mentions": [
+            {
+              "entity": "greeting",
+              "location": [
+                0,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "rating",
+      "examples": [
+        {
+          "text": "rated"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "reset",
+      "examples": [
+        {
+          "text": "reset",
+          "mentions": [
+            {
+              "entity": "reset",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Specific_Time_Weather",
+      "examples": [
+        {
+          "text": "current"
+        },
+        {
+          "text": "tonight's forecast"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "stop",
+      "examples": [
+        {
+          "text": "stop"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "details",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "details",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "greeting",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Good Evening",
+          "synonyms": [
+            "Evening, Good night"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Good Morning",
+          "synonyms": [
+            "Morning, Good day"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "good night",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hello",
+          "synonyms": [
+            "Hi, Hey, yo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hey",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yo",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Abigail",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Abigail E. C",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Abigail E. C.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alexander",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alexander D",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alexander D.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alexander David",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alexander David Martinez",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alexander David Martinez Ethan Christopher Hernandez",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alexander David Miller",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alexander D. M.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alexander W",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alexander W.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alexander W. A",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alexander W. A.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alexander William",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alexander William Ethan Christopher",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alice",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "amit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ananya",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Andrew",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Andrew B",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Andrew B.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Andrew Benjamin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Anthony",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Anthony W. J",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Anthony W. J.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "arjun",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ava",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ava E",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ava E.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ava E. E",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ava E. E.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ava Elizabeth",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ava Elizabeth Emma Grace Thompson",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ava S",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ava S.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ava S. H",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ava S. H.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ava Sophia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ava Sophia Hernandez",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ava Sophia Smith",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ava S. S",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ava S. S.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benjamin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benjamin M",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benjamin M.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benjamin M. A",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benjamin M. A.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benjamin Michael",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benjamin Michael Alexander William",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benjamin R",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benjamin R.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benjamin R. M",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benjamin R. M.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benjamin Robert",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benjamin Robert Miller",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benjamin Robert Miller Alexander David Martinez",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benjamin Robert Wilson",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benjamin R. W",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Benjamin R. W.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chloe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chloe O",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chloe O.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chloe Olivia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Christopher",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Christopher D",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Christopher D.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Christopher Daniel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Daniel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Daniel A",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Daniel A.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Daniel Anthony",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "deepak",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "devika",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Elizabeth",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Elizabeth E",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Elizabeth E.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Elizabeth Emma",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emily",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emma",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emma C",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emma C.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emma Charlotte",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emma Charlotte Sophia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emma Charlotte Sophia Grace",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emma C. S",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emma C. S.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emma G",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emma G.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emma Grace",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emma Grace Smith",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emma Grace Thompson",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emma Grace Thompson Sophia Marie Wilson",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emma G. S.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emma G. T",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Emma G. T.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ethan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ethan C",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ethan C.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ethan C. H",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ethan C. H.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ethan Christopher",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ethan Christopher Hernandez",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ethan Christopher Martinez",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ethan Christopher Michael Christopher Johnson",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ethan C. M",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ethan C. M.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Grace",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Grace S",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Grace S.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Grace Sophia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hannah",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hannah I",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hannah I.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hannah Isabella",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Isabella",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "James",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "James A",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "James A.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "James A. B.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "James Alexander",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "James Alexander Benjamin Michael",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "John",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Joshua",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Joshua M.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Joshua Michael",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "kiran",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Liam",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Logan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Logan W.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Logan William",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Madison",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Madison S.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Madison Samantha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "manoj",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Matthew",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Matthew E.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Matthew Ethan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mia E.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mia E. G",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mia E. G.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mia Elizabeth",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mia Elizabeth Garcia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mia Elizabeth Garcia Ava Sophia Smith",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mia S.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mia Sophia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mia Sophia Ava Elizabeth",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mia S. S.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Michael",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Michael Christopher Johnson",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Michael Christopher Johnson William James Brown",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Michael C. J.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Michael T.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Michael Thomas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Michael Thomas Johnson",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Michael T. J.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nathan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nathan A.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nathan Alexander",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "neha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nidhi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Olivia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Olivia A.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Olivia A. D.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Olivia Anne",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Olivia Anne Davis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Olivia Anne Davis Mia Elizabeth Garcia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Olivia Anne Thompson",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Olivia A. T.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Olivia R.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Olivia R. M.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Olivia Rose",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Olivia Rose Mia Sophia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pallavi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "priya",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rahul",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "raj",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ravi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Robert",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rohit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Samantha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Samantha A.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Samantha Abigail",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sandeep",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sanjeev",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sarah",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sneha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sophia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sophia G.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sophia G. O.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sophia Grace",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sophia Grace Olivia Rose",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sophia M",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sophia M.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sophia Marie",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sophia Marie Davis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sophia Marie Wilson",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sophia Marie Wilson Olivia Anne Davis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sophia M. D.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sophia M. W",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sophia M. W.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Victoria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Victoria E",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Victoria E.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Victoria Elizabeth",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "vikas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "vishnu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "William",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "William J.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "William J. A.",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "William Jacob",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "William Jacob James Alexander",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "William James",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "William James Brown",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "William James Brown Benjamin Robert Miller",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "William J. B.",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "reset",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "reset",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "stop",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "stop",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://weatherwiz-modxu4p8.b4a.run/webhook",
+      "name": "main_webhook",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ]
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "START",
+                "value": {
+                  "input": {
+                    "text": "hello"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1719238113929"
+      },
+      "dialog_node": "node_10_1719323107260",
+      "previous_sibling": "Welcome",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "city": "$cityname"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1719320341617"
+      },
+      "conditions": "#details && @details",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1719319263178",
+      "previous_sibling": "node_2_1719321062108",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": " Select one..",
+            "options": [
+              {
+                "label": "$name, would you like to try again?",
+                "value": {
+                  "input": {
+                    "text": "reset"
+                  }
+                }
+              },
+              {
+                "label": "Stop Bot",
+                "value": {
+                  "input": {
+                    "text": "stop"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1719321062108"
+      },
+      "dialog_node": "node_1_1719320341617",
+      "previous_sibling": "node_1_1719319263178",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "RAting",
+      "output": {
+        "generic": [
+          {
+            "title": "Rate the above result",
+            "options": [
+              {
+                "label": "Poor",
+                "value": {
+                  "input": {
+                    "text": "rated"
+                  }
+                }
+              },
+              {
+                "label": "Fair",
+                "value": {
+                  "input": {
+                    "text": "rated"
+                  }
+                }
+              },
+              {
+                "label": "Good",
+                "value": {
+                  "input": {
+                    "text": "rated"
+                  }
+                }
+              },
+              {
+                "label": "Very Good",
+                "value": {
+                  "input": {
+                    "text": "rated"
+                  }
+                }
+              },
+              {
+                "label": "Excellent",
+                "value": {
+                  "input": {
+                    "text": "rated"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1719624647186"
+      },
+      "dialog_node": "node_1_1719596192696",
+      "previous_sibling": "node_4_1719213831444"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is your name?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      },
+      "context": {},
+      "conditions": "#greeting_intent || @greeting",
+      "dialog_node": "node_2_1719238113929",
+      "previous_sibling": "node_10_1719323107260",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Name",
+      "parent": "node_2_1719238113929",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<? input.text ?>"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1719272782145"
+      },
+      "conditions": "#get_name && @name",
+      "dialog_node": "node_2_1719242399032",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "reset init",
+      "output": {
+        "generic": [
+          {
+            "title": "Select one..",
+            "options": [
+              {
+                "label": "Want to know more about your city's weather?",
+                "value": {
+                  "input": {
+                    "text": "details"
+                  }
+                }
+              },
+              {
+                "label": "$name, would you like to try again?",
+                "value": {
+                  "input": {
+                    "text": "reset"
+                  }
+                }
+              },
+              {
+                "label": "Stop Bot",
+                "value": {
+                  "input": {
+                    "text": "stop"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1719321062108"
+      },
+      "conditions": "",
+      "dialog_node": "node_2_1719295824428",
+      "previous_sibling": "node_8_1719624647186",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please enter your accurate city name."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1719273237665"
+      },
+      "conditions": "#reset",
+      "dialog_node": "node_2_1719296924911",
+      "previous_sibling": "node_1_1719320341617",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We appreciate you choosing our service! Thank you!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "How was your experience interacting with me? Please share your thoughts so I can improve."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1719627644910"
+      },
+      "conditions": "#stop && @stop",
+      "dialog_node": "node_2_1719321062108",
+      "previous_sibling": "node_2_1719295824428",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "word": "<? input.text ?>"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1719376715305"
+      },
+      "conditions": "#get_name && @name || @greeting",
+      "digress_in": "returns",
+      "dialog_node": "node_3_1719273237665",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_5_1719272782145",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Restart Bot",
+                "value": {
+                  "input": {
+                    "text": "hi"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1719627644910",
+      "dialog_node": "node_3_1719628843988"
+    },
+    {
+      "type": "standard",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "city": "$cityname"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1719596192696"
+      },
+      "conditions": "#Current_Weather",
+      "dialog_node": "node_4_1719213831444",
+      "previous_sibling": "node_6_1719376715305",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "get city name",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1719273237665"
+      },
+      "conditions": "$name",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1719272782145",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1719238113929",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Select one..",
+            "options": [
+              {
+                "label": "Confirm",
+                "value": {
+                  "input": {
+                    "text": "get"
+                  }
+                }
+              },
+              {
+                "label": "Not correct",
+                "value": {
+                  "input": {
+                    "text": "reset"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1719213831444"
+      },
+      "conditions": "$cityname",
+      "dialog_node": "node_6_1719376715305",
+      "previous_sibling": "node_3_1719273237665"
+    },
+    {
+      "type": "standard",
+      "parent": "node_2_1719321062108",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1719628843988"
+      },
+      "conditions": "#Feedback_Good || #Feedback_Bad",
+      "dialog_node": "node_6_1719627644910"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for rating us"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1719295824428"
+      },
+      "conditions": "#rating",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1719624647186",
+      "previous_sibling": "node_1_1719596192696"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you! 😊 I'm glad you had a good experience with me."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1719627644910",
+      "conditions": "#Feedback_Good",
+      "dialog_node": "response_10_1719628642867",
+      "previous_sibling": "node_3_1719628843988"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You've entered $cityname as your city. Please confirm that this is correct or select 'Not Correct' to change it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1719273237665",
+      "context": {
+        "cityname": "<? $webhook_result_1.capitalized_word ?>"
+      },
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_1_1719376226635"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Weather report for $loca ... \n Temperature: $tem°C (feelslike $feels°C).\n Description: $desc. \n Humidity: $humidity%.\n Pressure: $pressure hPa.\n Wind: $wspeed m/s at $wdirec°.\n Cloudiness: $cloud%.\n Visibility: $visib meters.\n Sunrise: $sunrise UTC.\n Sunset: $sunset UTC."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1719319263178",
+      "context": {
+        "tem": "<? $webhook_result_1.temperature ?>",
+        "desc": "<? $webhook_result_1.description ?>",
+        "icon": "<? $webhook_result_1.weather_icon ?>",
+        "loca": "<? $webhook_result_1.location ?>",
+        "cloud": "<? $webhook_result_1.cloudiness ?>",
+        "feels": "<? $webhook_result_1.feels_like ?>",
+        "visib": "<? $webhook_result_1.visibility ?>",
+        "sunset": "<? $webhook_result_1.sunset ?>",
+        "wdirec": "<? $webhook_result_1.wind_direction ?>",
+        "wspeed": "<? $webhook_result_1.wind_speed ?>",
+        "sunrise": "<? $webhook_result_1.sunrise ?>",
+        "humidity": "<? $webhook_result_1.humidity ?>",
+        "pressure": "<? $webhook_result_1.pressure ?>"
+      },
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_2_1719319263180"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello $name, Good to see you!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1719242399032",
+      "context": {
+        "name": "<? $webhook_result_1.processed_name ?>"
+      },
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_3_1719365514862"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please enter your accurate city name."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1719272782145",
+      "context": {},
+      "dialog_node": "response_6_1719296472112"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<? $response_text ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1719213831444",
+      "context": {
+        "tem": "<? $webhook_result_1.temperature ?>",
+        "desc": "<? $webhook_result_1.description ?>",
+        "icon": "<? $webhook_result_1.weather_icon ?>",
+        "loca": "<? $webhook_result_1.location ?>",
+        "cloud": "<? $webhook_result_1.cloudiness ?>",
+        "error": "<? $webhook_result_1.error ?>",
+        "feels": "<? $webhook_result_1.feels_like ?>",
+        "visib": "<? $webhook_result_1.visibility ?>",
+        "sunset": "<? $webhook_result_1.sunset ?>",
+        "wdirec": "<? $webhook_result_1.wind_direction ?>",
+        "wspeed": "<? $webhook_result_1.wind_speed ?>",
+        "sunrise": "<? $webhook_result_1.sunrise ?>",
+        "humidity": "<? $webhook_result_1.humidity ?>",
+        "pressure": "<? $webhook_result_1.pressure ?>",
+        "response_text": "<? $webhook_result_1.chatbot_response ?>"
+      },
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_8_1719234400937"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm sorry to hear that. 😔"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1719627644910",
+      "conditions": "#Feedback_Bad",
+      "dialog_node": "response_8_1719628778802",
+      "previous_sibling": "response_10_1719628642867"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$hello"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "context": {
+        "hello": "<? $webhook_result_1.response ?>"
+      },
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_9_1719632905345"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {},
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1719323107260"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome",
+      "disambiguation_opt_out": true
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "nlp": {
+      "model": "latest"
+    },
+    "disambiguation": {
+      "enabled": false,
+      "randomize": true,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above."
+    },
+    "spelling_auto_correct": false
+  },
+  "learning_opt_out": false,
+  "language": "en",
+  "description": "created for assistant 9e4629ef-016f-44a7-b961-5798238670dc",
+  "name": "Weatherwiz-dialog"
+}
